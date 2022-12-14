@@ -27,7 +27,7 @@
 - 쿼리의 뒤에 붙는, 요소를 특정하는 방법이다. <br/>
   ByRole, ByText 등이 있다.
 
-  - 1. [ByRole]()
+  - 1. [ByRole](./1-1.ByRole/README.md)
   - 2. [ByLabelText]()
   - 3. [ByPlaceholderText]()
   - 4. [ByText]()
