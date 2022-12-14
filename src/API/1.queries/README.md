@@ -6,7 +6,7 @@
   종류로는 get, find, query 총 세개가 있다. <br/>
   다중 요소 검색은 뒤에 All 을 붙여준다.
 
-- 1. GET
+- 1. [GET](./)
 
   - 쿼리에 대해 일치하는 노드를 반환한다. <br/>
     일치하는 요소가 없거나 둘 이상의 요소가 발견되면 오류를 발생시킨다.
@@ -26,3 +26,12 @@
 
 - 쿼리의 뒤에 붙는, 요소를 특정하는 방법이다. <br/>
   ByRole, ByText 등이 있다.
+
+  - 1. [ByRole]()
+  - 2. [ByLabelText]()
+  - 3. [ByPlaceholderText]()
+  - 4. [ByText]()
+  - 5. [ByDisplayValue]()
+  - 6. [ByAltText]()
+  - 7. [ByTitle]()
+  - 8. [ByTestId]()
