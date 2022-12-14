@@ -1,4 +1,4 @@
-# RTL 번역 및 튜토리얼
+# RTL 공식문서 번역
 
 ![다운로드](https://blog.kakaocdn.net/dn/bryMxV/btroQbKrxCR/YqaCdgjtutzsY3Q9e93KBk/img.png)
 
