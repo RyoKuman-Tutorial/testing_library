@@ -3,7 +3,7 @@
 ## PARAMETERS
 
 - container ( HTMLElemnet )
-- text( TextMatch ),
+- text ( TextMatch ),
 - options?: {
   exact?: boolean = true,
   normalizer?: NormalizerFn,
@@ -22,6 +22,4 @@ screen 사용 시에 생략이 가능하다. <br/>
 
 ## TEXT
 
-label 의 innerText 값을 입력한다. <br/>
-해당 값을 갖는 label이 가리키는 element 를 특정한다. <br/>
-예제 코드는 [링크](../1-2.ByLabelText/README.md)의 text와 같다. <br/>
+해당 값을 altText 로 갖는 element 를 특정한다. <br/>
