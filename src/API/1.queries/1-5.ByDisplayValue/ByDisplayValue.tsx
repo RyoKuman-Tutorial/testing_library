@@ -1,5 +1,11 @@
 function ByDisplayValue() {
-  return <div></div>;
+  return (
+    <div>
+      <input type="text" placeholder="1" />
+      <input type="text" placeholder="2" />
+      <input type="text" placeholder="3" />
+    </div>
+  );
 }
 
 export default ByDisplayValue;
