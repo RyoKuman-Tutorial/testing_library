@@ -45,8 +45,10 @@ expect(div1Bread.placeholder).toBe("bread");
 
 ```tsx
 const div2 = screen.getByRole("div2"); // <div role="div2">
-const div2Input: HTMLInputElement = getByLabelText(div2, "textInput", { selector: "input" }); // label 값이 textInput 인 input 검색, <input type="text" placeholder="textInput" />
-const div2TextArea: HTMLInputElement = getByLabelText(div2, "textInput", { selector: "textarea" }); // label 값이 textInput 인 textarea 검색, <textarea />
+const div2Input: HTMLInputElement = getByLabelText(div2, "textInput", { selector: "input" });
+// label 값이 textInput 인 input 검색, <input type="text" placeholder="textInput" />
+const div2TextArea: HTMLInputElement = getByLabelText(div2, "textInput", { selector: "textarea" });
+// label 값이 textInput 인 textarea 검색, <textarea />
 
 expect(div2Input.placeholder).toBe("this is input");
 expect(div2TextArea.placeholder).toBe("this is textarea");
