@@ -29,7 +29,7 @@
 
   - 1. [ByRole](./1-1.ByRole/README.md)
   - 2. [ByLabelText](./1-2.ByLabelText/README.md)
-  - 3. [ByPlaceholderText]()
+  - 3. [ByPlaceholderText](./1-3.ByPlaceholderText/README.md)
   - 4. [ByText]()
   - 5. [ByDisplayValue]()
   - 6. [ByAltText]()
