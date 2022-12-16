@@ -1,4 +1,4 @@
-import { render, screen } from "@testing-library/react";
+import { getByText, render, screen } from "@testing-library/react";
 import ByText from "./ByText";
 
 test("ByText test", () => {
@@ -13,4 +13,15 @@ test("ByText test", () => {
   expect(span.nodeName).toBe("SPAN");
   expect(button.nodeName).toBe("INPUT");
   expect(button.type).toBe("button");
+
+  const ignoreDiv = screen.getByRole("ignore");
+  const ignoreSpan = getByText(ignoreDiv, "ignore", { ignore: "p" });
+  // text 가 ignore 이 노드 검색, 검색 시에 p 태그를 제외한다.
+  // <p id="p">ignore</p>
+  const ignoreP = getByText(ignoreDiv, "ignore", { ignore: "span" });
+  // text 가 ignore 이 노드 검색, 검색 시에 span 태그를 제외한다.
+  // <span id="span">ignore</span>;
+
+  expect(ignoreSpan.id).toBe("span");
+  expect(ignoreP.id).toBe("p");
 });
