@@ -28,7 +28,7 @@
   ByRole, ByText 등이 있다.
 
   - 1. [ByRole](./1-1.ByRole/README.md)
-  - 2. [ByLabelText]()
+  - 2. [ByLabelText](./1-2.ByLabelText/README.md)
   - 3. [ByPlaceholderText]()
   - 4. [ByText]()
   - 5. [ByDisplayValue]()
